@@ -1,0 +1,576 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Likhitha Dhanaraju</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+
+	<style>
+			/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+		.flip-card {
+		  background-color: transparent;
+		  width: 250px;
+		  height: 250px;
+		  border: 1px solid #f1f1f1;
+		  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+		}
+
+		/* This container is needed to position the front and back side */
+		.flip-card-inner {
+		  position: absolute;
+		  width: 100%;
+		  height: 100%;
+		  text-align: center;
+		  transition: transform 0.8s;
+		  transform-style: preserve-3d;
+		}
+
+		/* Do an horizontal flip when you move the mouse over the flip box container */
+		.flip-card:hover .flip-card-inner {
+		  transform: rotateY(180deg) scale(1.2);
+		}
+
+		/* Position the front and back side */
+		.flip-card-front, .flip-card-back {
+		  position: absolute;
+		  width: 100%;
+		  height: 100%;
+		  backface-visibility: hidden;
+		}
+
+		/* Style the front side (fallback if image is missing) */
+		.flip-card-front {
+		  background-color: #bbb;
+		  color: black;
+			z-index:1;
+
+		}
+
+		/* Style the back side */
+		.flip-card-back {
+			z-index:999;
+		  background-color: whitesmoke;
+		  color: black;
+		  transform: rotateY(180deg);
+
+		}
+	</style>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+
+							<h1 id="title">Likhitha DHANARAJU</h1>
+							<p>Data Analyst/ Data Scientist</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Introduction</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a href="#education" id="education-link"><span class="icon solid fa-school">Education</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-building">Work Experience</span></a></li>
+<!--								<li><a href="#projects" id="project-link"><span class="icon solid fa-th">Some things I've built</span></a></li>-->
+								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Get In Touch</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+							<li><a href="https://www.linkedin.com/in/likhitha-dhanaraju/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/likhitha-d01" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://www.instagram.com/likhitha.d01/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="mailto: likhitha.dhanaraju@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h3 class="alt">Hi! I'm <strong><a style="color: black"> Likhitha Dhanaraju!</a> </strong></h3>
+								<p>I am currently a Master's student  <a href="https://www.edhec.edu/en" style="color: black"> @EDHEC Business School </a>in Lille, France. </p>
+								<p>In this data-driven world, I am passionate about finding analytical solutions to various business problems.
+									I have experience working in the <strong style="color: black"> Pharma Consulting and E-Commerce industries </strong></p>
+								<p>I am eager to expand my knowledge across diverse sectors.</p>
+									</header>
+
+							<footer>
+								<a href="#contact" class="button scrolly" style="background-color: #ffb9b9; color: black" > Contact Me</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="two">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<a class="image featured"><img src="images/headshot_bw.png" onmouseover="this.src='images/headshot.png';" onmouseout="this.src='images/headshot_bw.png';"
+																	style="object-fit: contain; width: 250px; height: 250px; float: left" /></a>
+
+							<div class="text" style="font-size: 16px; margin-left: 30%; text-align: left; font-weight: normal">
+							<p>Hello! My career in the data-analytics domain started during my B.Tech degree at <a href="https://www.nitk.ac.in/" style="color: coral"> National Institute of Technology, Karnataka</a> where I graduated with a CGPA of 8.63/ 10.</p>
+							<p> During my bachelors, I had the opportunity to intern at <a href="https://iisc.ac.in/" style="color: coral">Indian Institute of Science, Bangalore</a> as a research intern,
+								and at
+								<a> Dumla Inc, </a>
+								<a href="https://in.linkedin.com/company/vectorised-ai-labs" style="color: lightcoral"> Vectorised AI Labs</a>,
+								<a href="https://www.linkedin.com/company/wikilimo/" style="color: lightcoral"> Wikilimo, </a>
+								<a href="https://www.textmercato.com/" style="color: lightcoral">Text Mercato</a> as a Machine Learning Intern and worked on building scalable analytical solutions.
+							</p>
+
+							<p> After my graduation, I worked at <a href="https://www.zs.com" style="color: coral"> ZS Associates</a> as a Decision Analytics Associate Consultant, where I worked with a multi-billion dollar pharmaceutical company to help the client solve various business problems for their sales force team. </p>
+
+							<p style="margin-bottom: -1px"> <strong style="font-weight: bold"> Here is the list of technical skills I'm familiar with - </strong> </p>
+
+							<style>
+
+								.doublecolumn {
+									columns: 2;
+									-webkit-columns: 2;
+									-moz-columns: 2;
+								   }
+
+								li::marker {
+									  content: counter(list-item) "› ";
+									  color: lightcoral;
+									  margin-top: -20px;
+									}
+							</style>
+
+							<ul class='doublecolumn'>
+								<li> Microsoft Excel </li>
+								<li> Microsoft PowerPoint </li>
+								<li> Python </li>
+								<li> Spark SQL </li>
+
+								<li> Keras </li>
+								<li> Pytorch </li>
+								<li> Tensorflow </li>
+								<li> Cloud Computing (AWS) </li>
+
+
+							</ul>
+
+
+						</div>
+
+					</div>
+
+					</section>
+
+				<!-- Education -->
+					<section id="education" class="three">
+
+						<div class="container">
+
+						<header>
+							<h2>Education</h2>
+						</header>
+
+						<a class="image featured"><img src="images/edhec.jpg" style="object-fit: contain; width: 100px; height: 100px; float: left; margin-top: -20px" /></a>
+
+							<div class="text" style="font-size: 16px; margin-left: 20%; text-align: left; font-weight: normal">
+								<a href="https://www.edhec.edu/en"><h4 style="margin-bottom: -40px; font-weight: bolder; font-size: large"><pre>EDHEC Business School 																		Lille, France</pre> </h4> </a>
+								<p style="font-weight: bold"> <pre> MSc in Data Analytics and Artificial Intelligence 													( Jul 2023 - Present )</pre> </p>
+
+							</div>
+
+
+						<a class="image featured"><img src="images/nitk.png" style="object-fit: contain; width: 80px; height: 80px; float: left; margin-top: 10px" /></a>
+
+							<div class="text" style="font-size: 16px; margin-left: 20%; text-align: left; font-weight: normal">
+								<a href="https://www.nitk.ac.in/"><h4 style="margin-bottom: -40px; font-weight: bolder; font-size: large"><pre>National Institute of Technology Karnataka 													Surathkal, India</pre> </h4> </a>
+								<p style="font-weight: bold"> <pre> B.Tech in Mechanical Engineering 																	( Aug 2017 - May 2021 )</pre> </p>
+								<p style="font-size: xx-small; margin-top: -40px"> <pre> 		Cumulative GPA: 8.63/10 (Top 15% of the batch) </pre> </p>
+								<p style="font-size: xx-small; margin-top: -50px"> <pre> 		Relevant coursework: Forecasting Models, Data Analytics: Business Decision Making, Marketing Analytics </pre> </p>
+
+							</div>
+
+						</div>
+
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="four">
+
+						<div class="container" style="margin-bottom: 10%">
+
+						<header>
+							<h2>Work Experience</h2>
+						</header>
+
+						<p> Below are the highlights of my work and internship experiences - </p>
+
+						<div class="row">
+
+							<div class="col-4 col-12-mobile">
+
+<!--							1st -->
+								<article class="item">
+								<div class="flip-card" style="float:left">
+
+									<div class="flip-card-inner">
+											<div class="flip-card-front">
+												<div style="z-index:1">
+													<img src="images/pic02.png" style="width:250px;height:250px;background-color: whitesmoke">
+														<header>
+															<h3 style="font-weight: bold"> Decision Analytics Associate @ZS Associates </h3>
+														</header>
+												</div>
+											</div>
+
+
+											<div class="flip-card-back">
+												<a href="https://www.zs.com/"> <h6 style="font-weight: bold; color: mediumblue"> ZS Associates</h6>	 </a>
+												<div style="z-index:1; font-size: x-small; text-align: left; padding-top: 1px">
+
+													<li style="margin-bottom: -15px; margin-left: 5px"> Led technical training sessions to team of 50+</li>
+													<li style="margin-bottom: -15px; margin-left: 5px"> Optimization model to identify targets</li>
+													<li style="margin-bottom: -15px; margin-left: 5px"> Monitor quality management throughout projects.</li>
+													<li style="margin-bottom: -15px; margin-left: 5px"> Optimal team size analysis for multiple teams</li>
+													<li style="margin-bottom: -15px; margin-left: 5px"> Devised a collaborative customer targeting strategy.</li>
+													<li style="margin-bottom: -15px; margin-left: 5px"> Territory design and optimization for multiple teams.</li>
+													<li style="margin-bottom: -15px; margin-left: 5px"> Optimal sales rep placements in the optimized territories.</li>
+
+
+												</div>
+											</div>
+									</div>
+								</div>
+								</article>
+
+<!--							4th -->
+
+								<article class="item">
+
+								<div class="flip-card" style="float:left; margin-top: 50%">
+								<div class="flip-card-inner">
+										<div class="flip-card-front">
+											<div style="z-index:1">
+												<img src="images/text_mercato.png" style="width:250px;height:250px;background-color: whitesmoke">
+													<header>
+														<h3 style="font-weight: bold"> Data Science Intern @Text Mercato </h3>
+													</header>
+											</div>
+										</div>
+
+
+										<div class="flip-card-back">
+											<a href="https://www.textmercato.com/"> <h6 style="font-weight: bold; color: mediumblue"> Text Mercato</h6>	 </a>
+											<div style="z-index:1; font-size: x-small; text-align: left; padding-top: 30px">
+
+												<li style="margin-bottom: -10px"> Django REST API for scraping data from fashion websites.</li>
+												<li style="margin-bottom: -10px"> Data annotation using open-source tool LabelImg. </li>
+												<li style="margin-bottom: -10px"> Optimized ResNet-50 model to detect apparel.</li>
+												<li style="margin-bottom: -10px"> Refined the ResNet-50 model to identify fashion attributes.</li>
+
+
+											</div>
+										</div>
+
+								</div>
+
+								</div>
+
+								</article>
+
+
+<!--							7th-->
+
+								<article class="item">
+
+								<div class="flip-card" style="float:left; margin-top: 50%">
+								<div class="flip-card-inner">
+										<div class="flip-card-front">
+											<div style="z-index:1">
+												<img src="images/dumla.jpeg" style="width:250px;height:250px;background-color: whitesmoke">
+													<header>
+														<h3 style="font-weight: bold"> ML/AI Development Intern @Dumla Inc </h3>
+													</header>
+											</div>
+										</div>
+
+
+										<div class="flip-card-back">
+											<a href=""> <h6 style="font-weight: bold; color: mediumblue">Dumla Inc.</h6> </a>
+											<div style="z-index:1; font-size: x-small; text-align: left; padding-top: 40px">
+
+												<li style="margin-bottom: -10px"> Optimized SSD model to detect empty shelves.</li>
+												<li style="margin-bottom: -10px"> Integrated text detector model to extract text from labels</li>
+												<li style="margin-bottom: -10px"> Deployed the integrated model in Docker container.</li>
+
+
+											</div>
+										</div>
+
+								</div>
+
+								</div>
+
+								</article>
+
+
+
+								</div>
+
+							<div class="col-4 col-12-mobile">
+
+<!--							2nd -->
+
+								<article class="item">
+
+								<div class="flip-card" style="float:left">
+								<div class="flip-card-inner">
+										<div class="flip-card-front">
+											<div style="z-index:1">
+												<img src="images/p03.jpeg" style="width:250px;height:250px;background-color: whitesmoke">
+													<header>
+														<h3 style="font-weight: bold"> Teaching Assistant @Eigen School </h3>
+													</header>
+											</div>
+										</div>
+
+
+										<div class="flip-card-back">
+											<a href="https://www.linkedin.com/company/eigen-school/"> <h6 style="font-weight: bold; color: mediumblue"> Eigen School</h6>	 </a>
+											<div style="z-index:1; font-size: x-small; text-align: left; padding-top: 10px">
+
+												<li style="margin-bottom: -10px"> Mentored students on various Machine Learning concepts </li>
+												<li style="margin-bottom: -10px"> Daily support and review of students' progress. </li>
+												<li style="margin-bottom: -10px"> Project planning and content creation.</li>
+												<li style="margin-bottom: -10px"> Conducted daily feedback and improvement discussions.</li>
+											</div>
+										</div>
+
+								</div>
+
+								</div>
+
+								</article>
+
+
+<!--								5th -->
+
+
+							<article class="item">
+								<div class="flip-card" style="float:left; margin-top: 50%">
+
+									<div class="flip-card-inner">
+											<div class="flip-card-front">
+												<div style="z-index:1">
+													<img src="images/wikilimo.png" style="width:250px;height:250px;background-color: whitesmoke">
+														<header>
+															<h3 style="font-weight: bold"> ML Engineering Intern @Wikilimo </h3>
+														</header>
+												</div>
+											</div>
+
+
+											<div class="flip-card-back">
+												<a href="https://github.com/wikilimo"> <h6 style="font-weight: bold; color: mediumblue">Wikilimo</h6> </a>
+												<div style="z-index:1; font-size: x-small; text-align: left; padding-top: 50px">
+													<li style="margin-bottom: -10px; margin-left: 5px"> Burnt Area Index prediction using EO-Learn</li>
+													<li style="margin-bottom: -10px; margin-left: 5px"> Integration of model with Sentinel Hub Custom Script.</li>
+
+												</div>
+											</div>
+									</div>
+								</div>
+								</article>
+
+
+
+<!--								8th-->
+
+								<article class="item">
+
+								<div class="flip-card" style="float:left; margin-top: 50%">
+								<div class="flip-card-inner">
+										<div class="flip-card-front">
+											<div style="z-index:1">
+												<img src="images/iisc_logo.jpg" style="width:250px;height:250px;background-color: whitesmoke">
+													<header>
+														<h3 style="font-weight: bold"> Research Intern @IISc Bengaluru </h3>
+													</header>
+											</div>
+										</div>
+
+
+										<div class="flip-card-back">
+											<a href="https://iisc.ac.in/"> <h6 style="font-weight: bold; color: mediumblue">Indian Institute of Science</h6> </a>
+											<div style="z-index:1; font-size: x-small; text-align: left; padding-top: 30px">
+
+												<li style="margin-bottom: -10px"> Improved VoxelNet model for 3D object detection.</li>
+												<li style="margin-bottom: -10px"> Automation script to densify CAD model data points. </li>
+												<li style="margin-bottom: -10px"> Designed web-based AR features using AR.js and A-Frame.</li>
+
+
+											</div>
+										</div>
+
+								</div>
+
+								</div>
+
+								</article>
+
+
+
+							</div>
+
+
+						<div class="col-4 col-12-mobile">
+
+<!--							3rd-->
+
+							<article class="item">
+								<div class="flip-card" style="float:left">
+
+									<div class="flip-card-inner">
+											<div class="flip-card-front">
+												<div style="z-index:1">
+													<img src="images/boeing_logo.png" style="width:250px;height:250px;background-color: whitesmoke">
+														<header>
+															<h3 style="font-weight: bold"> Application Developer Intern @Boeing India </h3>
+														</header>
+												</div>
+											</div>
+
+
+											<div class="flip-card-back">
+												<a href="https://www.boeing.co.in/"> <h6 style="font-weight: bold; color: mediumblue">Boeing India</h6> </a>
+												<div style="z-index:1; font-size: x-small; text-align: left; padding-top: 50px">
+													<li style="margin-bottom: -10px; margin-left: 5px"> Attended training and development sessions for interns.</li>
+													<li style="margin-bottom: -10px; margin-left: 5px"> ENOVIA database migration with MarkLogic & Apache NiFi.</li>
+													<li style="margin-bottom: -10px; margin-left: 5px"> Devised UI-tests for web-based 3DExperience.</li>
+
+												</div>
+											</div>
+									</div>
+								</div>
+								</article>
+
+<!--								6th-->
+
+							<article class="item">
+								<div class="flip-card" style="float:left; margin-top: 50%">
+
+									<div class="flip-card-inner">
+											<div class="flip-card-front">
+												<div style="z-index:1">
+													<img src="images/vectorised_ai.jpeg" style="width:250px;height:250px;background-color: whitesmoke">
+														<header>
+															<h3 style="font-weight: bold"> Computer Vision Intern @Vectorised AI Labs </h3>
+														</header>
+												</div>
+											</div>
+
+
+											<div class="flip-card-back">
+												<a href="https://www.linkedin.com/company/vectorised-ai-labs/"> <h6 style="font-weight: bold; color: mediumblue"> Vectorised AI Labs</h6> </a>
+												<div style="z-index:1; font-size: x-small; text-align: left; padding-top: 50px">
+													<li style="margin-bottom: -10px; margin-left: 5px"> Engineered DL model to generate descriptions for images.</li>
+													<li style="margin-bottom: -10px; margin-left: 5px"> Leveraged NLP models to group similar clothing items.</li>
+													<li style="margin-bottom: -10px; margin-left: 5px"> Model to classify based on images & descriptions.</li>
+
+												</div>
+											</div>
+									</div>
+								</div>
+								</article>
+
+
+
+
+
+						</div>
+
+
+						</div>
+						</div>
+
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="five">
+						<div class="container">
+
+							<header>
+								<h2>Get In Touch!</h2>
+							</header>
+
+							<p>Please feel free to reach out to me via email or message if you have any inquiries or simply want to say hello.
+								I will make every effort to respond promptly.
+								Please feel free to contact me with any relevant job updates.
+							</p>
+
+
+								<div class="row" style="text-align: center">
+
+									<ul class="icons" style="margin-left: 42%">
+										<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+										<li><a href="https://www.linkedin.com/in/likhitha-dhanaraju/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+										<li><a href="https://github.com/likhitha-d01" class="icon brands fa-github"><span class="label">Github</span></a></li>
+										<li><a href="https://www.instagram.com/likhitha.d01/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="mailto: likhitha.dhanaraju@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+									</ul>
+
+								</div>
+
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
